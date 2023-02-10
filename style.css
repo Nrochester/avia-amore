@@ -68,6 +68,20 @@ main > * {
   margin-bottom: .5rem;
 }
 
+@media screen and (max-width:768px) {
+  .airplane-card {
+    width:max-content
+  }
+  header {
+    flex-direction:column;
+    align-items:normal;
+  }
+ 
+  h2{
+    text-align: left;
+  }
+}
+
 /* media queries */
 
 /* YOUR CODE HERE */
